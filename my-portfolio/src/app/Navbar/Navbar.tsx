@@ -4,7 +4,7 @@ import Image from "next/image";
 import github from "@/assets/github.png";
 import linkedin from "@/assets/linkedin.png";
 import Link from "next/link";
-import {motion} from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import Sidebar from "../Sidebar/Sidebar";
 
 export default function NavBar(){
@@ -15,14 +15,14 @@ export default function NavBar(){
     const nameTransition = {duration:0.5};
 
     return(
-        <div className="h-[100px]">
+        <div className="h-[100px] w-screen fixed z-50">
             <div className="flex justify-between "> 
                 <div className="flex flex-row text-white gap-4 font-bold text-lg">
                     <Sidebar/>
-                    <motion.span className="items-center my-5" initial={nameInitialState} animate={nameFinalState} transition={nameTransition} >Daniel Keum</motion.span>
+                    <motion.span className="my-10 relative" initial={nameInitialState} animate={nameFinalState} transition={nameTransition}> Daniel Keum</motion.span>
                 </div>    
                 
-                <div className="flex flex-row gap-4 mx-4 my-5">
+                <div className="flex flex-row gap-4 mx-10 my-5">
 
                 <Link 
                     href= "https://dkeum.github.io/"

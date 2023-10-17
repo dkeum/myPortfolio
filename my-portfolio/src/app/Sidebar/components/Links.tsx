@@ -8,7 +8,7 @@ interface LinksProps {
 
 export default function Links({className} : LinksProps){
 
-    const items = ["Homepage", "Services", "Portfolio", "Contact", "About"];
+    const items = ["Homepage", "Services", "Portfolio", "Contact"];
     const variants = {
         open: {
           transition: {
@@ -43,6 +43,7 @@ export default function Links({className} : LinksProps){
             {items.map((item)=>(
                 <motion.a href={`#${item}`} 
                 key={item} 
+                className="z-50"
                 variants={itemVariants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}>

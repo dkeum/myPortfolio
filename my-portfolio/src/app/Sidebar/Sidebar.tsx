@@ -38,11 +38,27 @@ export default function Sidebar(){
 
     return(
         <motion.div className="text-black rounded-full relative" animate={open ? "open" : "closed"}>
-           <motion.div className="bg-white items-start w-[400px] h-full" variants={variants}>
+           {open ? 
+           <>
+            <motion.div className="w-[400px] bg-white" variants={variants}>
                 <Links className="text-4xl"/>
             </motion.div>
-            <ToggleButton onClick={handleToggle} className="bg-transparent absolute top-10 left-10 z-50 cursor-pointer" />
+            </>
+            :
+            <div className="w-[400px] ">
+            </div>
+
+           }
+            
+            <ToggleButton onClick={handleToggle} className="flex bg-white w-10 h-10 items-center justify-center align-middle absolute top-10 left-10 z-50 cursor-pointer rounded-full" />
         </motion.div>
 
     );
 }
+
+
+
+
+        
+      
+        
