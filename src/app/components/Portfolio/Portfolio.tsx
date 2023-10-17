@@ -158,6 +158,12 @@ export default function Portfolio({type} : PortfolioProps){
                      width={30}
                      height={30}
                  />
+                <Image
+                     src={bootstrap}
+                     alt="bootstrap"
+                     width={30}
+                     height={30}
+                 />
                  <Image
                      src={firebase}
                      alt="firebase"
