@@ -29,7 +29,7 @@ export default function Contact(){
 
     const isInView = useInView(ref, { margin: "-100px" });
 
-    const sendEmail = (e) => {
+    const sendEmail = (e: any) => {
         e.preventDefault();
     
         emailjs
