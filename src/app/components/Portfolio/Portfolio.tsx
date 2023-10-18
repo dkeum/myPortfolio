@@ -176,7 +176,7 @@ export default function Portfolio({type} : PortfolioProps){
                  <div className="flex flex-row gap-x-5 justify-center mt-10">
  
                      <a
-                         href="https://dkeum.github.io/PokemonEncyclopedia_v1/"
+                         href="https://pokemon-encyclopedia-v1.vercel.app/"
                          target="_blank"
                          rel="noopener noreferrer"
                      >
