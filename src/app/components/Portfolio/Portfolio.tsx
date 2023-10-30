@@ -230,6 +230,7 @@ export default function Portfolio({ type }: PortfolioProps) {
               alt="ai chatbot website"
               width={500}
               height={800}
+              className="aspect-[4/3]"
             />
           </div>
         </div>
