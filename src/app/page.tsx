@@ -24,6 +24,8 @@ export default function Home() {
       <section id="Portfolio"><Parallax type="Portfolio"/></section>
       <section><Portfolio type="Portfolio1"/></section>
       <section><Portfolio type="Portfolio2"/></section>
+      <section><Portfolio type="Portfolio3"/></section>
+      <section><Portfolio type="Portfolio4"/></section>
       <section id="Contact"><Contact/> </section>
 
     </div>
