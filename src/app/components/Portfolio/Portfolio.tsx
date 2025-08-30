@@ -237,7 +237,7 @@ export default function Portfolio({ type }: PortfolioProps) {
       )}
 
       {type === "Portfolio4" && (
-        <div className="h-screen text-white font-bold flex flex-row justify-center align-middle">
+        <div className="h-screen text-white font-bold flex flex-row justify-center align-middle mt-20">
           <div className="flex flex-row items-center justify-center align-middle gap-5 gap-x-10">
             <div className="flex flex-col w-[300px]">
               <h1 className="font-bold text-3xl text-purple-500">
