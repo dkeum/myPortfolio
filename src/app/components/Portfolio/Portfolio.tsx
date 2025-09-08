@@ -111,7 +111,7 @@ export default function Portfolio({ type }: PortfolioProps) {
               <p className="mt-5">
                 {" "}
                 <span className="text-purple-500">Description:</span> 
-                Neetfriends is a chat application that I've spent to create an alternative for online chatrooms.
+                Neetfriends is a chat application that I have created as an alternative for online chatrooms like omegle.
                 This project is live but not fully functional as it costs money to run and maintain. 
               </p>
               <p className="mt-5 text-purple-500">
