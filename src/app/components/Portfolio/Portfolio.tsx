@@ -15,9 +15,9 @@ import firebase from "@/assets/firebase.png";
 import bootstrap from "@/assets/bootstrap.jpeg";
 import postgresql from "@/assets/postgresql.png";
 import ai_chatbot from "@/assets/ai_chatbot.jpg";
-import twitter_clone from "@/assets/twitter_clone.jpg"
-import mathamagic from "@/assets/mathamagic.png"
-import neetfriend from "@/assets/neetfriends.png"
+import twitter_clone from "@/assets/twitter_clone.jpg";
+import mathamagic from "@/assets/mathamagic.png";
+import neetfriend from "@/assets/neetfriends.png";
 
 import Image from "next/image";
 
@@ -28,20 +28,19 @@ interface PortfolioProps {
 export default function Portfolio({ type }: PortfolioProps) {
   return (
     <>
-
-{type === "Portfolio3" && (
+      {type === "Portfolio1" && (
         <div className="h-screen text-white font-bold flex flex-row justify-center align-middle">
           <div className="flex flex-row items-center justify-center align-middle gap-5 gap-x-10">
             <div className="flex flex-col w-[300px]">
-              <h1 className="font-bold text-3xl text-purple-500">
-                Mathamagic
-              </h1>
+              <h1 className="font-bold text-3xl text-purple-500">Mathamagic</h1>
 
               <p className="mt-5">
                 {" "}
-                <span className="text-purple-500">Description:</span> 
-                Using the power of AI, students are able to find high quality math questions for their subjects.
-                Some users are actually using this website in its early testing stage! 3D models are included using three.js
+                <span className="text-purple-500">Description:</span> Using the
+                power of AI, students are able to find high quality math
+                questions for their subjects. Some users are actually using this
+                website in its early testing stage! 3D models are included using
+                three.js
               </p>
               <p className="mt-5 text-purple-500">
                 {" "}
@@ -100,7 +99,7 @@ export default function Portfolio({ type }: PortfolioProps) {
         </div>
       )}
 
-      {type === "Portfolio4" && (
+      {type === "Portfolio2" && (
         <div className="h-screen text-white font-bold flex flex-row justify-center align-middle mt-20">
           <div className="flex flex-row items-center justify-center align-middle gap-5 gap-x-10">
             <div className="flex flex-col w-[300px]">
@@ -110,9 +109,11 @@ export default function Portfolio({ type }: PortfolioProps) {
 
               <p className="mt-5">
                 {" "}
-                <span className="text-purple-500">Description:</span> 
-                Neetfriends is a chat application that I have created as an alternative for online chatrooms like omegle.
-                This project is live but not fully functional as it costs money to run and maintain. 
+                <span className="text-purple-500">Description:</span>{" "}
+                Neetfriends is a chat application that I have created as an
+                alternative for online chatrooms like omegle. This project is
+                live but not fully functional as it costs money to run and
+                maintain.
               </p>
               <p className="mt-5 text-purple-500">
                 {" "}
@@ -122,9 +123,13 @@ export default function Portfolio({ type }: PortfolioProps) {
 
                   <Image src={nextjs} alt="nextjs" width={50} height={30} />
 
-                  <Image src={postgresql} alt="postgresq" width={50} height={30} />
+                  <Image
+                    src={postgresql}
+                    alt="postgresq"
+                    width={50}
+                    height={30}
+                  />
                   <Image src={tailwind} alt="tailwind" width={30} height={30} />
-  
                 </div>
               </p>
 
@@ -161,7 +166,7 @@ export default function Portfolio({ type }: PortfolioProps) {
         </div>
       )}
 
-      {type === "Portfolio1" && (
+      {type === "Portfolio3" && (
         <div className="h-screen text-white font-bold flex flex-row justify-center align-middle">
           <div className="flex flex-row items-center justify-center align-middle gap-5 gap-x-10">
             <div className="flex flex-col w-[300px]">
@@ -223,7 +228,7 @@ export default function Portfolio({ type }: PortfolioProps) {
         </div>
       )}
 
-      {type === "Portfolio2" && (
+      {type === "Portfolio4" && (
         <div className="h-screen text-white font-bold flex flex-row justify-center align-middle">
           <div className="flex flex-row items-center justify-center align-middle gap-5 gap-x-10">
             <div className="flex flex-col w-[300px]">
@@ -289,8 +294,6 @@ export default function Portfolio({ type }: PortfolioProps) {
           </div>
         </div>
       )}
-
-    
     </>
   );
 }
