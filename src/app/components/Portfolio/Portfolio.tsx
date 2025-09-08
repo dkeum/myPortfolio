@@ -41,7 +41,7 @@ export default function Portfolio({ type }: PortfolioProps) {
                 {" "}
                 <span className="text-purple-500">Description:</span> 
                 Using the power of AI, students are able to find high quality math questions for their subjects.
-                Some users are actually using this website in its early testing stage!
+                Some users are actually using this website in its early testing stage! 3D models are included using three.js
               </p>
               <p className="mt-5 text-purple-500">
                 {" "}
