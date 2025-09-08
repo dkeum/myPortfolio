@@ -135,7 +135,7 @@ export default function Portfolio({ type }: PortfolioProps) {
 
               <div className="flex flex-row gap-x-5 justify-center mt-10">
                 <a
-                  href="https://twitter-clone-eta-mauve.vercel.app/"
+                  href="https://ruby-chat-app-rxu1.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -145,7 +145,7 @@ export default function Portfolio({ type }: PortfolioProps) {
                 </a>
 
                 <a
-                  href="https://github.com/dkeum/Twitter_Clone"
+                  href="https://ruby-chat-app-rxu1.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
